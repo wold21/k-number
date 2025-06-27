@@ -1,5 +1,6 @@
 'use client';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface HeroSectionProps {}
 
 export default function HeroSection({}: HeroSectionProps) {
@@ -18,14 +19,14 @@ export default function HeroSection({}: HeroSectionProps) {
           <div className="space-y-8">
             <blockquote className="text-lg md:text-xl italic border-l-4 border-blue-400 pl-6 text-left max-w-3xl mx-auto">
               <p className="mb-4">
-                "나는 K-12345였다. 이름이 아닌 번호로 불렸던 아이들의 이야기를 기억해주세요."
+                &ldquo;나는 K-12345였다. 이름이 아닌 번호로 불렸던 아이들의 이야기를 기억해주세요.&rdquo;
               </p>
               <cite className="text-sm text-gray-400 not-italic">- 한국 입양인의 증언</cite>
             </blockquote>
             
             <blockquote className="text-lg md:text-xl italic border-l-4 border-green-400 pl-6 text-left max-w-3xl mx-auto">
               <p className="mb-4">
-                "우리는 통계가 아닙니다. 우리는 사람입니다."
+                &ldquo;우리는 통계가 아닙니다. 우리는 사람입니다.&rdquo;
               </p>
               <cite className="text-sm text-gray-400 not-italic">- 국제입양인연대</cite>
             </blockquote>

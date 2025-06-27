@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface ActionSectionProps {}
 
 export default function ActionSection({}: ActionSectionProps) {

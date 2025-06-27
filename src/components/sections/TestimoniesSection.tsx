@@ -1,5 +1,6 @@
 'use client';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface TestimoniesSectionProps {}
 
 interface Testimony {
@@ -62,7 +63,7 @@ export default function TestimoniesSection({}: TestimoniesSectionProps) {
                     <path fillRule="evenodd" d="M3 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H6a1 1 0 01-1-1V6a1 1 0 01-1-1zm2 2V5h1v1H5zM3 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1H4a1 1 0 01-1-1v-1a1 1 0 011-1zm2 2v-1h1v1H5zM10 4a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a1 1 0 01-1-1V6a1 1 0 01-1-1zm2 2V5h1v1h-1zM10 13a1 1 0 011-1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1a1 1 0 01-1-1zm2 2v-1h1v1h-1z" clipRule="evenodd" />
                   </svg>
                   <blockquote className="text-lg text-gray-700 leading-relaxed italic">
-                    "{testimony.quote}"
+                    &ldquo;{testimony.quote}&rdquo;
                   </blockquote>
                 </div>
                 

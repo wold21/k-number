@@ -1,5 +1,6 @@
 'use client';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface MemorySectionProps {}
 
 interface MemoryItem {

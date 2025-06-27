@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface NavigationProps {}
 
 export default function Navigation({}: NavigationProps) {

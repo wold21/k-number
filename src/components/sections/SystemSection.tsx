@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface SystemSectionProps {}
 
 export default function SystemSection({}: SystemSectionProps) {
@@ -95,7 +96,7 @@ export default function SystemSection({}: SystemSectionProps) {
                   <span className="text-red-400 mr-3">•</span>
                   <div>
                     <strong>이윤 추구 구조</strong>
-                    <p className="text-gray-300 text-sm mt-1">입양 기관의 수익을 위한 아동 '수출'</p>
+                    <p className="text-gray-300 text-sm mt-1">입양 기관의 수익을 위한 아동 &lsquo;수출&rsquo;</p>
                   </div>
                 </li>
                 <li className="flex items-start">
